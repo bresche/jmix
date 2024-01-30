@@ -19,8 +19,7 @@ import { css } from '@vaadin/vaadin-themable-mixin/vaadin-themable-mixin.js';
 export const jmixRichTextEditorStyles = css`
     :host {
         display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
+        box-sizing: content-box;
 
         min-height: calc(var(--lumo-size-m) * 8);
         --_focus-ring-color: var(--vaadin-focus-ring-color, var(--lumo-primary-color-50pct));
@@ -32,6 +31,8 @@ export const jmixRichTextEditorStyles = css`
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        
+        padding: var(--lumo-space-xs) 0;
     }
 
     :host([hidden]) {

@@ -115,6 +115,11 @@ jmix-rich-text-editor .jmix-rich-text-editor-container {
     overflow: hidden;
 }
 
+vaadin-form-layout jmix-rich-text-editor {
+    /* Workaround for odd margin inside vaadin-form-layout */
+    align-self: flex-start;
+}
+
 
 /* Toolbar */
 
