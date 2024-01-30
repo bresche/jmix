@@ -4073,8 +4073,8 @@
                 <xs:attributeGroup ref="hasHelperText"/>
                 <xs:attributeGroup ref="hasValueAndElement"/>
                 <xs:attributeGroup ref="hasAriaLabel"/>
-                <xs:attributeGroup ref="hasValueChangeMode"/>
 
+                <xs:attribute name="valueChangeMode" type="valueChangeModeEnum"/>
                 <xs:attribute name="themeNames" type="richTextEditorThemeNames"/>
             </xs:extension>
         </xs:complexContent>

@@ -2949,7 +2949,6 @@ public interface StudioComponents {
                     @StudioProperty(xmlAttribute = "valueChangeMode", type = StudioPropertyType.ENUMERATION,
                             classFqn = "com.vaadin.flow.data.value.ValueChangeMode", options = {"EAGER", "LAZY",
                             "TIMEOUT", "ON_BLUR", "ON_CHANGE"}),
-                    @StudioProperty(xmlAttribute = "valueChangeTimeout", type = StudioPropertyType.INTEGER),
                     @StudioProperty(xmlAttribute = "dataContainer", type = StudioPropertyType.DATA_CONTAINER_REF),
                     @StudioProperty(xmlAttribute = "property", type = StudioPropertyType.PROPERTY_REF)
             }
